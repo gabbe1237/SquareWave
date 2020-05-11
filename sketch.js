@@ -6,7 +6,8 @@ var wave = [];
 var slider;
 
 function setup() {
-	slider = createSlider(1, 100, 4)
+	slider = createSlider(1, 100, 20)
+	slider.position(500, 800)
 	createCanvas(windowWidth, windowHeight);
 	//Radien multipliceras med en konstant för en större cirkel. 
 	r = (8 / PI) * 50;
